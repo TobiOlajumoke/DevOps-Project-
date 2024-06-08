@@ -17,11 +17,12 @@ flask_api_project/
 
 ## Setting Up the Project
 
-To create the project directory structure and set up a virtual environment, run the following commands:
+To create the project directory structure and set up a virtual environment, run the following commands in your command line or terminal:
 
 ```bash
 mkdir -p flask_api_project/{templates,static} && touch flask_api_project/app.py flask_api_project/templates/index.html flask_api_project/static/style.css && python -m venv flask_api_project/venv
 ```
+![alt text](<images/directory structure.png>)
 
 The command above will create the project enviroment
 
@@ -130,6 +131,12 @@ The command above will create the project enviroment
 
 ### Step 3: Running the Application
 
+```bash
+python -m venv venv
+source venv/Scripts/activate
+pip install Flask
+```
+
 Run your Flask application:
 ```bash
 flask run
@@ -158,8 +165,10 @@ Open your browser and go to `http://127.0.0.1:5000` to see your application.
         ```
     - Click `Send` and check the response.
 
+    It would like this:
 
 
+![alt text](<images/postman response.png>)
 
 
 

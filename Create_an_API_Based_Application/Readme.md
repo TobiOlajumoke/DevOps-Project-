@@ -143,6 +143,9 @@ flask run
 ```
 
 Open your browser and go to `http://127.0.0.1:5000` to see your application.
+![alt text](images/website_api.png) 
+![alt text](<images/add data.png>) 
+![alt text](<images/add data 2.png>)
 
 ### Step 4: Testing the API
 

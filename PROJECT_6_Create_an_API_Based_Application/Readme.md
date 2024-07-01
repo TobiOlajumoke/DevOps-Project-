@@ -70,11 +70,10 @@ Imagine you want to get a list of users from a server:
 - **Collaboration:** Different teams can work on different parts of a system simultaneously, improving productivity and innovation.
 
 
-Watch this video to understand more [here](https://youtu.be/ByGJQzlzxQg?si=Ii2hyafleokyUVkB)
+Watch this short video to understand more [here](https://youtu.be/ByGJQzlzxQg?si=Ii2hyafleokyUVkB)
 ---
 
-This should give you a good foundational understanding of what APIs are and why they are important. If you have any specific questions or need further clarification, feel free to ask!
-## Project Structure
+This should give you a good foundational understanding of what APIs are and why they are important.
 
 ```text
 flask_api_project/

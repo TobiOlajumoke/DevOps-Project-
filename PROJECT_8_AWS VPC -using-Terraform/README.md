@@ -392,3 +392,5 @@ If you have created the VPC for learning purposes and wish to clean up the resou
 terraform destroy  -var-file=../../vars/dev/vpc.tfvars
 ```
 ![alt text](<images/terraform destroy.png>)
+
+That's the end fof this project. Welldone

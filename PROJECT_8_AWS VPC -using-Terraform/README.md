@@ -210,7 +210,7 @@ We will be creating the VPC with the following
 ## Step 1: CD in the Cloned Repository
 If you haven’t already cloned the repo, clone it using the following command.
 ```
-git clone https://github.com/techiescamp/terraform-aws.git
+https://github.com/TobiOlajumoke/Terraform-VPC.git
 ```
 Then cd in to the terraform-aws folder
 ```

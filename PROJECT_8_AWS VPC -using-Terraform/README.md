@@ -142,14 +142,14 @@ We are going to spin up an ec2 instance and attach the following IAM roles to it
 ![alt text](<images/attach role to instance2.png>)
 
 
-
 ##  Connect to your instance via ssh 
 
+- ssh into the instance
+- install terraform
+```
+sudo snap install terraform
 
-
-
-
-
+```
 
 # Terraform AWS VPC Creation Workflow
 The VPC terraform code is structured in the following way.
@@ -345,6 +345,9 @@ create_cloudwatch_logs_endpoint = true
 
 
 ## Step 2: Initialize Terraform and Execute the Plan
+
+
+
 Now cd in to infra/vpc folder and execute the terraform plan to validate the configurations.
 
 
